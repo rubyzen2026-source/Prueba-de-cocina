@@ -1,0 +1,31 @@
+/* ↓ EN LAS PRIMERA LÍNEA PODEMOS ENLAZAR LAS FUENTES QUE USAREMOS ↓ */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+/* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
+body {
+  background-color: #ffaffc;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  /* font-family: 'Nunito Sans';*/
+  font-family: 'Honk', system-ui;
+  font-weight: 500;
+  margin: 0;
+  position: absolute;
+  font-size: 20vh;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #36fcff;
+}
