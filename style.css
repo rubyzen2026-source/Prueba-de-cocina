@@ -1,12 +1,9 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
-
-/* ↓ A PARTIR DE ESE PUNTO PODEMOS LLAMAR TODAS LAS PROPIEDADES DE NUESTRAS CLASES Y ID´S ↓ */
 body {
-  background-color: #fc7039;
+  background-color: #3bdd48;
   margin: 0;
-  padding: 0;
-}
-
+  padding: 0; ]
 h1 {
   /* font-family: 'Nunito Sans';*/
   font-family: 'Honk', system-ui;
@@ -20,10 +17,10 @@ h1 {
 }
 
 a {
-  color: rgb(255, 244, 94);
+  color: rgb(145, 180, 255);
   text-decoration: none;
 }
 
 a:hover {
   background-color: #ffffff;
-}
+} 
